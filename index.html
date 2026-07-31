@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harsha Ram K — Python Full Stack Developer</title>
+<meta name="description" content="Portfolio of Harsha Ram K, Python Full Stack Developer (Fresher) — Django, React.js, Oracle SQL.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">HR<span class="dot">.</span>K</a>
+    <div class="nav-links">
+      <a href="#about">about</a>
+      <a href="#board">journey</a>
+      <a href="#stack">stack</a>
+      <a href="#education">education</a>
+      <a href="#work">work</a>
+      <a href="#contact">contact</a>
+    </div>
+    <a href="#contact" class="nav-cta">let's talk</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="top" class="hero">
+  <div class="hero-grid"></div>
+  <div class="hero-inner">
+    <p class="eyebrow mono">$ whoami</p>
+    <h1 class="hero-title">
+      <span class="type-line" id="typeName"></span>
+      <span class="cursor">_</span>
+    </h1>
+    <p class="hero-role mono">
+      <span class="role-tag">Python Full Stack Developer</span>
+      <span class="role-sep">/</span>
+      <span class="role-tag">Django</span>
+      <span class="role-sep">/</span>
+      <span class="role-tag">React.js</span>
+    </p>
+    <p class="hero-sub">B.E. Computer Science, Arunachala College of Engineering for Women — Class of 2026 · Kanyakumari, Tamil Nadu</p>
+    <div class="hero-actions">
+      <a href="#work" class="btn btn-primary">View my work</a>
+      <a href="resume.pdf" target="_blank" class="btn btn-ghost">Download Resume</a>
+      <a href="#contact" class="btn btn-ghost">Get in touch</a>
+    </div>
+  </div>
+  <div class="scroll-cue mono">scroll<span>↓</span></div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="section-inner about-grid">
+    <div class="section-head">
+      <p class="eyebrow mono">01 / about</p>
+      <h2>Fresh out of the compiler,<br>ready to ship.</h2>
+    </div>
+    <div class="about-body">
+      <p>I'm Harsha, a Computer Science and Engineering graduate from Arunachala College of Engineering for Women (2022–2026), trained in Python Full Stack Development at PySpiders. I build complete web applications — from database schema to the button someone actually clicks.</p>
+      <p>My work spans Django on the backend and React.js on the frontend — from a full-stack restaurant management platform with role-based customer and vendor access, to a responsive e-commerce app with cart, checkout, and REST API-driven order tracking. I like the kind of problem where a feature only "works" once every layer — model, view, API, UI — agrees with each other.</p>
+      <p>Off-screen, I'm usually sketching or a few moves deep into a chess game — both of which, it turns out, are decent training for debugging.</p>
+      <div class="strengths">
+        <span class="chip">Quick learner</span>
+        <span class="chip">Full-stack thinker</span>
+        <span class="chip">Interview-ready</span>
+        <span class="chip">Detail-oriented</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHESSBOARD LEARNING JOURNEY -->
+<section id="board" class="section board-section">
+  <div class="section-inner">
+    <div class="section-head center">
+      <p class="eyebrow mono">02 / journey</p>
+      <h2>Seven moves in.</h2>
+      <p class="section-note">Every skill below was earned one square at a time — plotted here as a real knight's tour, because a straight line never told the whole story.</p>
+    </div>
+    <div class="board-wrap">
+      <div class="chessboard" id="chessboard"></div>
+      <svg id="pathSvg" viewBox="0 0 800 800" class="path-svg">
+        <polyline id="tourPath" fill="none" points="150,750 350,650 250,450 450,350 350,150 550,50 750,150"/>
+      </svg>
+      <div class="board-nodes" id="boardNodes"></div>
+    </div>
+    <div class="board-legend" id="boardLegend"></div>
+  </div>
+</section>
+
+<!-- TECH STACK -->
+<section id="stack" class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow mono">03 / stack</p>
+      <h2>Tools I reach for.</h2>
+    </div>
+    <div class="stack-grid" id="stackGrid"></div>
+  </div>
+</section>
+
+<!-- EDUCATION & ACHIEVEMENTS -->
+<section id="education" class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow mono">04 / education</p>
+      <h2>Where it started.</h2>
+    </div>
+    <div class="edu-card">
+      <div class="edu-top">
+        <h3>B.E. Computer Science and Engineering</h3>
+        <p class="edu-sub">Arunachala College of Engineering for Women · Vellichanthai, Tamil Nadu</p>
+      </div>
+      <div class="edu-meta">
+        <span class="edu-cgpa mono">CGPA 9.0 / 10</span>
+        <span class="edu-dates mono">Aug 2022 — May 2026</span>
+      </div>
+    </div>
+    <div class="achievements-grid">
+      <div class="achievement"><span class="achievement-num mono">01</span><p>First Prize — Technical Quiz Competition</p></div>
+      <div class="achievement"><span class="achievement-num mono">02</span><p>Regularity Award — received four times for excellent attendance &amp; punctuality</p></div>
+      <div class="achievement"><span class="achievement-num mono">03</span><p>Python Full Stack Development training — PySpiders</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="work" class="section">
+  <div class="section-inner">
+    <div class="section-head">
+      <p class="eyebrow mono">05 / work</p>
+      <h2>Things I've built.</h2>
+    </div>
+    <article class="project-card">
+      <div class="project-top">
+        <div>
+          <p class="mono project-tag">FULL-STACK · DJANGO · MAR 2026 – PRESENT</p>
+          <h3>Restaurant Management Web Application</h3>
+          <p class="project-desc">A full-stack restaurant management platform with customer and vendor registration, role-based access, and restaurant/user management — built end-to-end in Django.</p>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/HarshaRamK/" target="_blank" rel="noopener" class="btn btn-small">Code <span>↗</span></a>
+          <a href="#" class="btn btn-small btn-outline">Live demo <span>↗</span></a>
+        </div>
+      </div>
+      <div class="project-tech">
+        <span>Python</span><span>Django</span><span>HTML</span><span>CSS</span><span>Bootstrap</span>
+      </div>
+      <div class="feature-grid">
+        <div class="feature"><span class="feature-num">01</span><p>Customer &amp; vendor registration, login, authentication</p></div>
+        <div class="feature"><span class="feature-num">02</span><p>Role-based access control</p></div>
+        <div class="feature"><span class="feature-num">03</span><p>Restaurant &amp; user management modules (Django ORM)</p></div>
+        <div class="feature"><span class="feature-num">04</span><p>Full CRUD operations</p></div>
+        <div class="feature"><span class="feature-num">05</span><p>Responsive UI with HTML, CSS &amp; Bootstrap</p></div>
+      </div>
+    </article>
+    <article class="project-card">
+      <div class="project-top">
+        <div>
+          <p class="mono project-tag">FRONTEND · REACT.JS · JUL 2026 – PRESENT</p>
+          <h3>E-Commerce Web Application</h3>
+          <p class="project-desc">A responsive e-commerce web app with product listing, shopping cart, checkout, and order tracking — powered by REST APIs.</p>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/HarshaRamK/" target="_blank" rel="noopener" class="btn btn-small">Code <span>↗</span></a>
+          <a href="#" class="btn btn-small btn-outline">Live demo <span>↗</span></a>
+        </div>
+      </div>
+      <div class="project-tech">
+        <span>React.js</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>REST API</span>
+      </div>
+      <div class="feature-grid">
+        <div class="feature"><span class="feature-num">01</span><p>Product listing, shopping cart &amp; checkout flow</p></div>
+        <div class="feature"><span class="feature-num">02</span><p>Order tracking &amp; delivery option modules</p></div>
+        <div class="feature"><span class="feature-num">03</span><p>REST API integration via Axios</p></div>
+        <div class="feature"><span class="feature-num">04</span><p>Reusable React components</p></div>
+        <div class="feature"><span class="feature-num">05</span><p>State management with React Hooks (useState, useEffect)</p></div>
+      </div>
+    </article>
+    <p class="project-footnote">More projects in progress as I go deeper into React and REST-powered APIs.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact-section">
+  <div class="section-inner">
+    <p class="eyebrow mono">06 / contact</p>
+    <h2>Let's build something.</h2>
+    <p class="contact-sub">Open to Python Full Stack, Backend (Django) and Software Developer roles. Based in Kanyakumari, Tamil Nadu — happy to relocate or work remote.</p>
+    <div class="contact-links">
+      <a href="mailto:harsha6072@gmail.com" class="contact-link">
+        <span class="contact-label mono">email</span>
+        <span class="contact-value">harsha6072@gmail.com</span>
+      </a>
+      <a href="tel:+918608725529" class="contact-link">
+        <span class="contact-label mono">phone</span>
+        <span class="contact-value">+91 86087 25529</span>
+      </a>
+      <a href="https://github.com/HarshaRamK/" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-label mono">github</span>
+        <span class="contact-value">github.com/HarshaRamK</span>
+      </a>
+      <a href="https://linkedin.com/in/harsha-ram-k-9479b8259" target="_blank" rel="noopener" class="contact-link">
+        <span class="contact-label mono">linkedin</span>
+        <span class="contact-value">linkedin.com/in/harsha-ram-k</span>
+      </a>
+      <a href="#" class="contact-link">
+        <span class="contact-label mono">location</span>
+        <span class="contact-value">Kanyakumari, Tamil Nadu</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p class="mono">Built by Harsha Ram K · 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
